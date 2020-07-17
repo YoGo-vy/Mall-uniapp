@@ -19,7 +19,7 @@
 		<!-- 热门商品 -->
 		<view class="hot_goods">
 			<view class="title">
-				热门推荐
+				当前推荐
 			</view>
 			<!-- 商品列表 -->
 			<ShopList :goods='goodsList'></ShopList>
@@ -43,7 +43,7 @@ export default {
 			swiperImgs:[],
 			navIcon:[
 					{
-						text:'商城·超市',
+						text:'商城热卖',
 						icon:'icon-ziyuan',
 						path:'/pages/shop/shop'
 					},
@@ -186,10 +186,10 @@ export default {
 	background-color: pink;
 	overflow: hidden;
 	& .title{
-		height: 100rpx;
-		font-size: 56rpx;
+		height: 90rpx;
+		font-size: 50rpx;
 		letter-spacing: 20rpx;
-		line-height: 100rpx;
+		line-height: 90rpx;
 		background-color: #FFFFFF;
 		margin: 8rpx 0;
 		color: #B50E03;

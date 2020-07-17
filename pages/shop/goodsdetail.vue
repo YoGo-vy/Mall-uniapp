@@ -115,8 +115,33 @@ import uniGoodsNav from '@/components/uni-goods-nav/uni-goods-nav.vue'
 				})
 			  },
 			buttonClick (e) {
+				/* 
 				console.log(e)
-				this.options[1].info++
+				
+				content:
+				backgroundColor: (...)
+				color: (...)
+				text: (...)
+				__ob__: Observer {value: {…}, dep: Dep, vmCount: 0}
+				get backgroundColor: ƒ reactiveGetter()
+				set backgroundColor: ƒ reactiveSetter(newVal)
+				get color: ƒ reactiveGetter()
+				set color: ƒ reactiveSetter(newVal)
+				get text: ƒ reactiveGetter()
+				set text: ƒ reactiveSetter(newVal)
+				__proto__: Object
+				index: 0,
+				 */
+				if(e.index){
+					uni.showToast({
+						title:'购买商品'
+					})
+				}else{
+					uni.showToast({
+						title:'添加购物车，info +1'
+					})
+					this.options[1].info++
+				}
 			  }
 			
 		},

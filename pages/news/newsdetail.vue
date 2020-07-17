@@ -4,7 +4,7 @@
 			{{newsData.title}}
 		</view>
 		<view class="add_time">
-			<text>发表时间：{{newsData.add_time|dataFormat}}</text>
+			<text>发布时间：{{newsData.add_time|dataFormat}}</text>
 			<text>浏览：{{newsData.click}}</text>
 		</view>
 		<view class="content" v-html="newsData.content">
