@@ -1,0 +1,1 @@
+<view><image class="img" src="../../static/imgs/contact.jpg" mode></image><view class="call">联系电话： 1234567890</view><view class="address">地址: 江西省南昌市红谷滩区赣江中大道秋水广场</view><map class="map" scale="13" latitude="{{location.latitude}}" longitude="{{location.longitude}}"></map></view>

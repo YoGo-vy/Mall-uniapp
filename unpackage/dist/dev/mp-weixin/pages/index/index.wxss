@@ -1,0 +1,67 @@
+.nav-swiper {
+  height: 380rpx;
+}
+.nav-swiper image {
+  width: 100%;
+  height: 100%;
+}
+.nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.nav .nav-item {
+  width: 25%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  text-align: center;
+  font-size: 30rpx;
+}
+.nav .nav-item .iconfont {
+  margin: 15rpx 0;
+  width: 120rpx;
+  height: 120rpx;
+  background-color: #B50E03;
+  border-radius: 50%;
+  line-height: 120rpx;
+  font-size: 50rpx;
+  color: #fff;
+}
+.nav .nav-item .icon-tupian {
+  font-size: 40rpx;
+}
+.hot_goods {
+  background-color: pink;
+  overflow: hidden;
+}
+.hot_goods .title {
+  height: 100rpx;
+  font-size: 56rpx;
+  letter-spacing: 20rpx;
+  line-height: 100rpx;
+  background-color: #FFFFFF;
+  margin: 8rpx 0;
+  color: #B50E03;
+  text-align: center;
+}
+.loading_tips {
+  margin: 50rpx 0 0;
+  padding-bottom: 60rpx;
+  color: #B50E03;
+  text-align: center;
+  font-size: 30rpx;
+  letter-spacing: 10rpx;
+  font-weight: bold;
+}
+

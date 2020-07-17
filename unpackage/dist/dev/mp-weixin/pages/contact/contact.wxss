@@ -1,0 +1,19 @@
+.img {
+  width: 750rpx;
+  height: 360rpx;
+}
+.call,
+.address {
+  margin: 20rpx 50rpx 0;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 30rpx;
+  color: #aaa;
+}
+.map {
+  margin-top: 20rpx;
+  width: 750rpx;
+  height: 400rpx;
+}
+

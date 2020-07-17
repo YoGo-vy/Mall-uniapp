@@ -1,0 +1,1 @@
+<view class="shop"><shop-list vue-id="73adca00-1" goods="{{goodsList}}" bind:__l="__l"></shop-list><view hidden="{{!(isLoading)}}" class="loading_tips">---正在加载---</view><block wx:if="{{isEnd}}"><view class="loading_tips">---我是有底线的---</view></block></view>

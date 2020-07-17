@@ -1,0 +1,16 @@
+
+.shop {
+background-color: pink;
+padding-top: 20rpx;
+}
+.loading_tips {
+	margin: 50rpx 0 0;
+	padding-bottom: 60rpx;
+	color: #B50E03;
+	text-align: center;
+	font-size: 30rpx;
+	letter-spacing: 10rpx;
+	font-weight: bold;
+}
+
+
