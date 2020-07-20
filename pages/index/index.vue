@@ -3,8 +3,8 @@
 		
 		<!-- 轮播图 -->
 		<swiper class="nav-swiper" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="800" circular>
-			<swiper-item v-for="(item ,index) in swiperImgs" :key='index' >
-				<image :src="item.img" mode=""></image>
+			<swiper-item v-for="(item ,index) in bannerImgs" :key='index' >
+				<image :src="item" mode=""></image>
 			</swiper-item>
 		</swiper>
 		
@@ -40,6 +40,11 @@ import ShopList from '../../components/shoplist.vue'
 export default {
 	data:function(){
 		return {
+			bannerImgs:['../../static/imgs/bannerImgs/banner1.jpg',
+						'../../static/imgs/bannerImgs/banner2.jpg',
+						'../../static/imgs/bannerImgs/banner3.jpg',
+						],
+			// 轮播图后台数据
 			swiperImgs:[],
 			navIcon:[
 					{
@@ -53,9 +58,9 @@ export default {
 						path:'/pages/pics/pics'
 					},
 					{
-						text:'学习视频',
+						text:'社区资讯',
 						icon:'icon-shipin',
-						path:'/pages/videos/videos'
+						path:'/pages/news/news'
 						
 					},
 					{

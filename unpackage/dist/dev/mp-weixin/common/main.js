@@ -14,6 +14,19 @@ var _api = __webpack_require__(/*! util/api.js */ 11);function _interopRequireDe
 // 挂载uni.request()二次封装
 _vue.default.prototype.$http = _api.http;
 
+// data-format
+_vue.default.filter('dataFormat', function (value) {
+  if (value) {
+    var nDate = new Date(value);
+    var year = nDate.getFullYear();
+    var month = nDate.getMonth().toString().padStart(2, 0);
+    var day = nDate.getDay().toString().padStart(2, 0);
+    return year + '-' + month + '-' + day;
+  }
+});
+
+
+
 _vue.default.config.productionTip = false;
 
 _App.default.mpType = 'app';

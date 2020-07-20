@@ -1,3 +1,6 @@
 {
+  "navigationBarTitleText": "社区·资讯",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 200,
   "usingComponents": {}
 }

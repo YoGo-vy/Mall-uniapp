@@ -42,4 +42,9 @@
 .icon-ziyuan:before {
   content: "\e60d";
 }
+/* 商品detail样式放置全局样式 */
+.gomeImgLoad {
+	width: 700rpx;
+	height: auto;
+}
 

@@ -8,14 +8,10 @@
 				"enablePullDownRefresh":true
 			}
 		}
-	    ,{
-            "path" : "pages/news/news",
-            "style" : {
-				"navigationBarTitleText":"商城·资讯",
-				"enablePullDownRefresh":true,
-				"onReachBottomDistance":200
-			}
-        }
+		,{
+		    "path" : "pages/category/category",
+		    "style" : {}
+		}
         ,{
             "path" : "pages/shopCar/shopCar",
             "style" : {}
@@ -27,10 +23,18 @@
         ,{
             "path" : "pages/shop/shop",
             "style" : {
-				"navigationBarTitleText": "商品·列表",
+				"navigationBarTitleText": "商城热卖",
 				"enablePullDownRefresh":true
 			}
         }
+		,{
+		    "path" : "pages/news/news",
+		    "style" : {
+				"navigationBarTitleText":"社区·资讯",
+				"enablePullDownRefresh":true,
+				"onReachBottomDistance":200
+			}
+		}
         ,{
             "path" : "pages/contact/contact",
             "style" : {
@@ -51,12 +55,13 @@
             "path" : "pages/news/newsdetail",
             "style" : {}
         }
+        
     ],
 	
 	// 全局样式
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "商城app",
+		"navigationBarTitleText": "社区商城",
 		"navigationBarBackgroundColor": "#B50E03",
 		"backgroundColor": "#F8F8F8"
 	},
@@ -73,8 +78,8 @@
 			"selectedIconPath":"static/icon/home-active.png"
 			},
 			{
-			"pagePath":"pages/news/news",
-			"text":"资讯",
+			"pagePath":"pages/category/category",
+			"text":"商城分类",
 			"iconPath":"static/icon/news.png",
 			"selectedIconPath":"static/icon/news-active.png"
 			},

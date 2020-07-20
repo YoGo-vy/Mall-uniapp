@@ -1,17 +1,20 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/news/news",
+    "pages/category/category",
     "pages/shopCar/shopCar",
     "pages/personal/personal",
     "pages/shop/shop",
+    "pages/news/news",
     "pages/contact/contact",
-    "pages/pics/pics"
+    "pages/pics/pics",
+    "pages/shop/goodsdetail",
+    "pages/news/newsdetail"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "商城app",
+    "navigationBarTitleText": "社区商城",
     "navigationBarBackgroundColor": "#B50E03",
     "backgroundColor": "#F8F8F8"
   },
@@ -26,8 +29,8 @@
         "selectedIconPath": "static/icon/home-active.png"
       },
       {
-        "pagePath": "pages/news/news",
-        "text": "资讯",
+        "pagePath": "pages/category/category",
+        "text": "商城分类",
         "iconPath": "static/icon/news.png",
         "selectedIconPath": "static/icon/news-active.png"
       },
@@ -45,5 +48,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap14.json"
 }
