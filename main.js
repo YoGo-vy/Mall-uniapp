@@ -13,6 +13,7 @@ Vue.filter('dataFormat',(value)=>{
 		const month = nDate.getMonth().toString().padStart(2,0)
 		const day = nDate.getDay().toString().padStart(2,0)
 		return year+'-'+month+'-'+day
+		// return '2020-'+month+'-'+day
 	}			
 })
 			

@@ -22,6 +22,7 @@ _vue.default.filter('dataFormat', function (value) {
     var month = nDate.getMonth().toString().padStart(2, 0);
     var day = nDate.getDay().toString().padStart(2, 0);
     return year + '-' + month + '-' + day;
+    // return '2020-'+month+'-'+day
   }
 });
 

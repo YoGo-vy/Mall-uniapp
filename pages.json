@@ -43,7 +43,9 @@
         }
         ,{
             "path" : "pages/pics/pics",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText":"社区·资讯"
+			}
         }
         ,{
             "path" : "pages/shop/goodsdetail",
